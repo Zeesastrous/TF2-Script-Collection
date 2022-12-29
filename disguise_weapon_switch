@@ -1,0 +1,15 @@
+// #######################################
+// ##                                   ##
+// ##      	Disguise Weaponswitch       ##
+// ##                                   ##
+// #######################################
+//
+// -  DESCRIPTION :
+// This allows to switch the disguised player's weapon as Spy by using the mousewheel.
+// This can be used as to make weapon switching more convenient, which can theoretically make your disguise seem more legitimate to opponents.
+// Keep in mind this also switches the spy's weapon.
+
+alias next_wep_dis "invnext; lastdisguise"
+alias prev_wep_dis "invprev; lastdisguise"
+bind mwheelup prev_wep_dis
+bind mwheeldown next_wep_dis
