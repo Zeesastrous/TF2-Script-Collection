@@ -1,0 +1,21 @@
+// #######################################
+// ##                                   ##
+// ##       Crosshair Scale Tweak       ##
+// ##                                   ##
+// #######################################
+//
+// -  DESCRIPTION :
+// This allows you to set your crosshair scale on the fly.
+// This was mostly useful for sniper, as my crosshair is big for quickscoping/noscoping, but is an inconvenience for fairly long ranges
+//
+//
+// -  USAGE :
+// alias xhair_grow "incrementvar cl_crosshair_scale [min value] [max value] [increment +]"
+// alias xhair_shrink "incrementvar cl_crosshair_scale [min value] [max value] [increment -]"
+// bind mwheelup xhair_grow 
+// bind mwheeldown xhair_shrink
+
+alias xhair_grow "incrementvar cl_crosshair_scale 25 31 6"
+alias xhair_shrink "incrementvar cl_crosshair_scale 25 31 -6"
+bind mwheelup xhair_grow
+bind mwheeldown xhair_shrink
