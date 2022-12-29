@@ -6,7 +6,7 @@ Scripts I have personally made throughout the years I've played TF2. This includ
 
 *This section is a work in progress.*
 
-#### Common .cfg file for all classes
+### Common .cfg file for all classes
 Everytime you switch classes in TF2, it will run a .cfg file named after that class. These files are located in `SteamLibrary/common/team fortress 2/tf/cfg`.
 The files are named the following : `scout.cfg` `soldier.cfg` `pyro.cfg` `engineer.cfg` `heavyweapons.cfg` `demoman.cfg` `medic.cfg` `sniper.cfg` and `spy.cfg`.
 
@@ -38,7 +38,7 @@ unbind mwheeldown
 Basically, this file is meant for game-specific console settings that should alter between specific classes, such as interp config.
 For instance, I reset the crosshair scale to 31, as I play Sniper with a slightly smaller crosshair. Since I don't want the small crosshair to carry over when I switch to other classes, I reset it in the common class.
 
-#### autoexec.cfg
+### autoexec.cfg
 
 `autoexec.cfg` is a file that runs when you boot up TF2. Because I use mastercomfig for graphical settings, I only use `autoexec.cfg` to define a few variables and override a few settings that mastercomfig changes when booting up the game.
 
