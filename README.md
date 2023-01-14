@@ -47,7 +47,20 @@ For instance, I reset the crosshair scale to 31, as I play Sniper with a slightl
 
 //interp settings
 alias interp_hitscan      "cl_interp 0.03; cl_interp_ratio 2"
-alias interp_hitscan_alt  "cl_interp 0.018; cl_interp_ratio 1"
+alias interp_hitscan_alt  "cl_interp 0.018; cl_interp_ratio 1.2"
 alias interp_projectile   "cl_interp 0.015; cl_interp_ratio 1"
 ```
 This is useful to define certain aliases or settings ***only once per launch***. 
+
+## About cl_interp & cl_interp_ratio
+Server interpolation (`cl_interp` and `cl_interp_ratio`) are probably the most important settings that can dictate whether you can hit your shots or not. I was told before by a pro player that interp is a placebo command, but I say that's bullshit.
+
+**__The following values are my personal optimal settings for official servers at ~30 ping.__**
+The equation I use to get the best results are `[desired cl_interp value] * [server's tick rate] = [cl_interp_ratio value]`.
+For instance, I find that `cl_interp 0.018` yields favorable results, as it consistently deletes opponents with headshots. Official servers run at `66` tick. To find the best interp ratio value, I would do `0.018 * 66 = 1.188`, thus `cl_interp_ratio 1.188`. *(you could round it to `1.2` if you desire, however I'd try to stick at best to absolute values)*
+
+My optimal interp settings for classes that have **projectile based attacks**, such as **Pyro**(?), **Demoman**, **Soldier** and **Medic** *(Engineer if you use Rescue Ranger)* are `cl_interp 0.0152; cl_interp_ratio 1`, as projectiles are server-sided, thus the lowest value yields the best results. This is the default setting to a lot of pro players for projectile classes.
+
+My optimal interp settings for classes that have **hitscan based attacks**, like **Scout**, **Heavy**, **Sniper** and **Spy** are `cl_interp .0181818181; cl_interp_ratio 1.2`. This setting consistently registers headshots when I overlay the crosshair on top of heads. I also use `cl_interp .0185; cl_interp_ratio 1.221` whenever the former setting doesn't feel right.
+
+In general, **Higher interp results in the actual hitbox being behind the playermodel**.
