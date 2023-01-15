@@ -1,4 +1,4 @@
-## About cl_interp & cl_interp_ratio
+# About cl_interp & cl_interp_ratio
 ***This part is absolutely speculative.*** *The effects of interp can be difficult to research, and a lot of misconceptions have been spread around online. Most of what I'm writing is purely based on personal experimentation.*
 
 Server interpolation (`cl_interp` and `cl_interp_ratio`) are probably the most important settings that can dictate whether you can hit your shots or not. I was told before by a pro player that interp is a placebo command, but I say that's bullshit.
@@ -15,7 +15,7 @@ I tend to actually go with `cl_interp 0.03030303; cl_interp_ratio 2` for Scout s
 
 I still highly recommend that you **tweak these values to whatever you feel best comfortable with.** These values are what I feel most comfortable with while playing. If you believe you're consistently performing well with your current values, then don't bother tweaking them.
 
-### Why .0185 for hitscan? Why not .015?
+## Why .0185 for hitscan? Why not .015?
 `cl_interp .015` is optimal for LAN play for both hitscan and projectiles, as LAN environments have virtually no delay between communicating with the host and the clients. In online servers, I tend to notice while playing Sniper that the hitbox doesn't actually match the model, the hitbox being moved a bit forward from the model during movement. Animations also break much more consistently with that setting. I've experimented with these values for a long time and come to the conclusion that .0185 is the sweet spot to correct these mistakes while keeping the hitbox as close to the model as possible.
 
 In general, **Higher interp values results in the actual hitbox being more distanced from the player's model.**. In my personal experience, the hitbox seems to lag behind the higher the value, however there are videos clearly showing the model being behind the hitbox.
