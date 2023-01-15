@@ -1,13 +1,14 @@
 # About cl_interp & cl_interp_ratio
-***This part is absolutely speculative.*** *The effects of interp can be difficult to research, and a lot of misconceptions have been spread around online. Most of what I'm writing is purely based on personal experimentation.*
+***This part is absolutely speculative.*** *The effects of interp can be difficult to research, and a lot of misconceptions have been spread around online. Most of what I'm writing is purely based on personal experimentation, so expect corrections.*
 
 Server interpolation (`cl_interp` and `cl_interp_ratio`) are probably the most important settings that can dictate whether you can hit your shots or not. I was told before by a pro player that interp is a placebo command, but I say that's bullshit.
 
 **__The following values are my personal optimal settings for official servers at ~30 ping.__**
-~~The equation I use to get the best results are `[desired cl_interp value] * [server's tick rate] = [cl_interp_ratio value]`.
-For instance, I find that `cl_interp 0.018` yields favorable results, as it consistently deletes opponents with headshots. Official servers run at `66` tick. To find the best interp ratio value, I would do `0.018 * 66 = 1.188`, thus `cl_interp_ratio 1.188`. *(you could round it to `1.2` if you desire, however I'd try to stick at best to absolute values)*~~
 
-Having tested interp values more, I've noticed that `cl_interp_ratio 1` is significantly better for most settings on low ping. However, this is more of an issue of TF2's hitreg than it is a network issue.
+~~The equation I use to get the best results are `[desired cl_interp value] * [server's tick rate] = [cl_interp_ratio value]`.
+For instance, I find that `cl_interp 0.018` yields favorable results, as it consistently deletes opponents with headshots. Official servers run at `66` tick. To find the best interp ratio value, I would do `0.018 * 66 = 1.188`, thus `cl_interp_ratio 1.188`. *(you could round it to `1.2` if you desire, however I'd try to stick at best to absolute values)*~~ Having tested interp values more, I've noticed that `cl_interp_ratio 1` is significantly better for most settings on low ping.
+
+
 
 My optimal interp settings for classes that have **projectile based attacks**, such as **Pyro**(?), **Demoman**, **Soldier** and **Medic** *(Engineer if you use Rescue Ranger)* are `cl_interp 0.015; cl_interp_ratio 1`, as projectiles are server-sided, thus the lowest value yields the best results. This is the default setting to a lot of pro players for projectile classes.
 
