@@ -12,8 +12,7 @@ For instance, I find that `cl_interp 0.018` yields favorable results, as it cons
 
 My optimal interp settings for classes that have **projectile based attacks**, such as **Pyro**(?), **Demoman**, **Soldier** and **Medic** *(Engineer if you use Rescue Ranger)* are `cl_interp 0.015; cl_interp_ratio 1`, as projectiles are server-sided, thus the lowest value yields the best results. This is the default setting to a lot of pro players for projectile classes.
 
-My optimal interp settings for classes that have **hitscan based attacks**, like **Scout**, **Heavy**, **Sniper** and **Spy** are `cl_interp .0185; cl_interp_ratio 1`. This setting consistently registers headshots when I overlay the crosshair on top of heads. I also use `cl_interp .0185; cl_interp_ratio 1` whenever the former setting doesn't feel right.
-I tend to actually go with `cl_interp 0.03030303; cl_interp_ratio 2` for Scout specifically, as his considerably faster speed makes playing him significantly more different than Engineer's or Pyro's shotgun.
+My optimal interp settings for classes that have **hitscan based attacks**, like **Scout**, **Heavy**, **Sniper** and **Spy** are `cl_interp .0185; cl_interp_ratio 1`. This setting consistently registers headshots when I overlay the crosshair on top of heads. I also use `cl_interp .0182; cl_interp_ratio 1` whenever the former setting doesn't feel right.
 
 I still highly recommend that you **tweak these values to whatever you feel best comfortable with.** These values are what I feel most comfortable with while playing. If you believe you're consistently performing well with your current values, then don't bother tweaking them.
 
