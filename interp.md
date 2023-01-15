@@ -1,5 +1,5 @@
 # About cl_interp & cl_interp_ratio
-***This part is absolutely speculative.*** *The effects of interp can be difficult to research, and a lot of misconceptions have been spread around online. Most of what I'm writing is purely based on personal experimentation, so expect corrections.*
+***This part is absolutely speculative.*** *The effects of interp can be difficult to research, and a lot of misconceptions have been spread around online. Most of what I'm writing is purely based on personal experimentation.*
 
 Server interpolation (`cl_interp` and `cl_interp_ratio`) are probably the most important settings that can dictate whether you can hit your shots or not. I was told before by a pro player that interp is a placebo command, but I say that's bullshit.
 
