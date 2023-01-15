@@ -69,6 +69,6 @@ I tend to actually go with `cl_interp 0.03030303; cl_interp_ratio 2` for Scout s
 I still highly recommend that you **tweak these values to whatever you feel best comfortable with.** These values are what I feel most comfortable with while playing. If you believe you're consistently performing well with your current values, then don't bother tweaking them.
 
 ### Why .0181 for hitscan? Why not .015?
-`cl_interp .015` is optimal for LAN play for both hitscan and projectiles. However, I tend to notice while playing Sniper that the hitbox doesn't actually match the model, the hitbox being moved a bit forward from the model during movement. Animations seem to break much more consistently. Nudging these values to .0181 seems to correct these mistakes.
+`cl_interp .015` is optimal for LAN play for both hitscan and projectiles. However, I tend to notice while playing Sniper that the hitbox doesn't actually match the model, the hitbox being moved a bit forward from the model during movement. Animations also break much more consistently with that setting. I've experimented with these values for a long time and come to the conclusion that .0181 is the sweet spot to correct these mistakes while being as low as possible.
 
 In general, **Higher interp values results in the actual hitbox being more distanced from the player's model.**. In my personal experience, the hitbox seems to lag behind the higher the value, however there are videos clearly showing the model being behind the hitbox.
