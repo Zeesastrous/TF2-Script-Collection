@@ -44,7 +44,7 @@ For instance, I reset the crosshair scale to 31, as I play Sniper with a slightl
 
 //interp settings
 alias interp_hitscan      "cl_interp 0.03; cl_interp_ratio 2"
-alias interp_hitscan_alt  "cl_interp 0.018; cl_interp_ratio 1.2"
+alias interp_hitscan_alt  "cl_interp 0.018; cl_interp_ratio 1"
 alias interp_projectile   "cl_interp 0.015; cl_interp_ratio 1"
 ```
-This is useful to define certain aliases or settings ***only once per launch***. 
+This is useful to define certain aliases or settings ***only once per launch***. These kinds of commands shouldn't be put in configs that are used multiple times throughout a game
