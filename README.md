@@ -5,6 +5,8 @@ Scripts I have personally made throughout the years I've played TF2. This includ
 ## Pages
 [Good Scripting Practices](https://github.com/Zeesastrous/TF2-Script-Collection/blob/main/scripting_practices.md)
 
+[Aliases](https://github.com/Zeesastrous/TF2-Script-Collection/blob/main/aliases.md)
+
 [cl_interp & cl_interp_ratio](https://github.com/Zeesastrous/TF2-Script-Collection/blob/main/interp.md)
 
 ## Scripts
