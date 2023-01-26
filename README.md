@@ -15,5 +15,7 @@ Scripts I have personally made throughout the years I've played TF2. This includ
 [Change crosshair size on the fly](https://github.com/Zeesastrous/TF2-Script-Collection/blob/main/crosshair_scale_tweak.cfg)
 
 ### Class Specific
+#### Engineer
+[Quick Build script](https://github.com/Zeesastrous/TF2-Script-Collection/blob/main/engineer_quickbuild.cfg)
 #### Spy
-[Switch Disguise's weapons on the fly](https://github.com/Zeesastrous/TF2-Script-Collection/blob/main/disguise_weapon_switch.cfg)
+[Switch Disguise's weapons on the fly](https://github.com/Zeesastrous/TF2-Script-Collection/blob/main/spy_disguise_weapon_switch.cfg)
