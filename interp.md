@@ -23,6 +23,6 @@ However, while playing with that setting in online servers, I would notice while
 
 As for the other popular option, `cl_interp .03; cl_interp_ratio 2` is great for higher latency play, there is still a noticeable gap between the model and the hitbox. TF2 isn't in an era where internet connections are limited anymore, so it's not optimal for low latency play.
 
-I've experimented with these values for nearly a year, and come to the conclusion that `cl_interp .0185` is the sweet spot to correct these discrepancies while keeping the hitbox as close to the model as possible. This, however, doesn't prevent TF2's dogshit netcode from acting up, nor will it make it easier to get headshots on interp-abusing cheaters. This is purely
+I've experimented with these values for nearly a year, and come to the conclusion that `cl_interp .0185` is the sweet spot to correct these discrepancies while keeping the hitbox as close to the model as possible. This, however, doesn't prevent TF2's dogshit netcode from acting up, nor will it make it easier to get headshots on interp-abusing cheaters.
 
 In general, **Higher interp values results in the actual hitbox being more distanced from the player's model.**. In my personal experience, the hitbox seems to lag behind the higher the value, however it's worth noting there are videos clearly showing the model being behind the hitbox.
